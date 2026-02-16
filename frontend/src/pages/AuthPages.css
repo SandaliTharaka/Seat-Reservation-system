@@ -1,0 +1,124 @@
+.auth-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  background:
+    radial-gradient(circle at 18% 14%, rgba(110, 178, 255, 0.24), transparent 34%),
+    linear-gradient(120deg, rgba(8, 29, 69, 0.98), rgba(18, 63, 138, 0.97));
+}
+
+.auth-brand {
+  color: #fff;
+  padding: 62px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-brand h1 {
+  margin: 0 0 14px;
+  font-size: 2.4rem;
+  max-width: 520px;
+}
+
+.auth-brand p {
+  margin: 0;
+  max-width: 500px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.65;
+  font-size: 1.02rem;
+}
+
+.auth-brand ul {
+  margin: 18px 0 0;
+  padding-left: 18px;
+  color: rgba(255, 255, 255, 0.82);
+  display: grid;
+  gap: 8px;
+}
+
+.auth-panel {
+  background: linear-gradient(180deg, #f4f8ff 0%, #eef4ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+  border: 1px solid #d9e2ec;
+  border-radius: 18px;
+  box-shadow: 0 20px 38px rgba(15, 23, 42, 0.15);
+  padding: 32px;
+}
+
+.auth-card h2 {
+  margin: 0 0 8px;
+  color: #0b3a78;
+  font-size: 1.4rem;
+}
+
+.auth-subtitle {
+  margin: 0 0 18px;
+  color: #51627e;
+  font-size: 0.95rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-link {
+  color: #0b3a78;
+  font-weight: 700;
+}
+
+.google-btn {
+  width: 100%;
+  margin-top: 12px;
+  background: #fff;
+  border: 1px solid #cfd8e3;
+  color: #334155;
+  font-weight: 700;
+}
+
+.google-btn:hover {
+  background: #f8fafc;
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.input-icon-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: #475569;
+  font-weight: 700;
+}
+
+@media (max-width: 980px) {
+  .auth-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .auth-brand {
+    display: none;
+  }
+}

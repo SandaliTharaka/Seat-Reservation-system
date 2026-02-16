@@ -1,0 +1,39 @@
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(98px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.seat-btn {
+  height: 76px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.2s ease;
+}
+
+.seat-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.15);
+}
+
+.seat-btn.available {
+  background: linear-gradient(160deg, #15803d, #166534);
+}
+
+.seat-btn.booked {
+  background: linear-gradient(160deg, #dc2626, #991b1b);
+}
+
+.seat-btn.unavailable {
+  background: linear-gradient(160deg, #64748b, #475569);
+}
+
+.seat-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.86;
+}
