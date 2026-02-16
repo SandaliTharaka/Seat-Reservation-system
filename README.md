@@ -9,18 +9,6 @@ A role-based seat booking platform for interns and admins with QR check-in, repo
 
 ## Screenshots
 
-Save your screenshots inside `docs/screenshots/` with these names:
-
-- `01-login.png`
-- `02-intern-book-seat.png`
-- `03-admin-manage-seats.png`
-- `04-admin-reservations-checkin.png`
-- `05-admin-reports.png`
-- `06-my-reservations.png`
-- `07-google-login.png`
-
-Then they will render automatically in this README.
-
 ### Login
 ![Login](docs/screenshots/01-login.png)
 
@@ -29,9 +17,6 @@ Then they will render automatically in this README.
 
 ### Admin - Manage Seats
 ![Admin Manage Seats](docs/screenshots/03-admin-manage-seats.png)
-
-### Admin - Reservations and QR Check-in
-![Admin Reservations and Check-in](docs/screenshots/04-admin-reservations-checkin.png)
 
 ### Admin - Reports
 ![Admin Reports](docs/screenshots/05-admin-reports.png)
